@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {
     View,
     WebView,
+    StatusBar,
     StyleSheet,
 } from 'react-native';
 import constant from '../../src/common/Constant';
@@ -31,6 +32,10 @@ export default class Details extends Component {
         let url = this.props.navigation.state.params.url;
         return (
             <View style={styles.container}>
+                {/*状态栏颜色*/}
+                <StatusBar
+                    backgroundColor={constant.primaryColor}
+                    barStyle={'light-content'}/>
                 <WebView
                     style={styles.web}
                     source={{uri: url}}
