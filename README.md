@@ -16,10 +16,20 @@
 * 使用易源Api(SHOWAPI)接口
 * 开发时使用的版本
 ```
-"react": "16.0.0-beta.5",
-"react-native": "0.49.5",
-"react-native-easy-toast": "^1.0.8",
-"react-navigation": "^1.0.0-beta.15"
+Environment:
+  OS:  macOS Sierra 10.12.6
+  Node:  8.4.0
+  Yarn:  1.0.0
+  npm:  5.5.1
+  Watchman:  4.9.0
+  Xcode:  Xcode 8.3.3 Build version 8E3004b
+  Android Studio:  3.0 AI-171.4408382
+
+Packages: (wanted => installed)
+    react: "16.0.0-beta.5",
+    react-native: "0.49.5",
+    react-navigation: "^1.0.0-beta.15"
+    react-native-easy-toast: "^1.0.8",
 ```
 
 #### 使用到的Library
