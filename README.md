@@ -1,6 +1,15 @@
 ### 效果图
-#### 模块一：笑话 -谜语
+#### 模块一：笑话 — 谜语
 <img src="http://img.blog.csdn.net/20171103221137967" width="300">　　<img src="http://img.blog.csdn.net/20171103221604995" width="300">　　<img src="http://img.blog.csdn.net/20171103221905030" width="300">　　<img src="http://img.blog.csdn.net/20171103221934080" width="300">
+#### 模块二：鸡汤
+<img src="http://img.blog.csdn.net/20171103222356171" width="300">　　<img src="http://img.blog.csdn.net/20171103222414696" width="300">
+#### 模块三：福利
+<img src="http://img.blog.csdn.net/20171103222546175" width="300">　　<img src="http://img.blog.csdn.net/20171103222609872" width="300">
+#### 模块四：关于
+<img src="http://img.blog.csdn.net/20171103222733627" width="300">　　<img src="http://img.blog.csdn.net/20171103222755612" width="300">
+#### 模块五：详情
+<img src="http://img.blog.csdn.net/20171103222845352" width="300">　　<img src="http://img.blog.csdn.net/20171103222906416" width="300">
+
 
 #### 关于app
 * 使用易源Api(SHOWAPI)接口
