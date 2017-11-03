@@ -1,3 +1,7 @@
+### 效果图
+#### 模块一：笑话 -谜语
+<img src="http://img.blog.csdn.net/20171103221137967" width="300">　　<img src="http://img.blog.csdn.net/20171103221604995" width="300">　　<img src="http://img.blog.csdn.net/20171103221905030" width="300">　　<img src="http://img.blog.csdn.net/20171103221934080" width="300">
+
 #### 关于app
 * 使用易源Api(SHOWAPI)接口
 
