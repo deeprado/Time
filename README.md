@@ -1,4 +1,5 @@
-### 效果图
+### 效果图　　[动态效果图看这里](https://github.com/azhon/Time/tree/master/gif)
+
 #### 模块一：笑话 — 谜语
 <img src="http://img.blog.csdn.net/20171103221137967" width="300">　　<img src="http://img.blog.csdn.net/20171103221604995" width="300">　　<img src="http://img.blog.csdn.net/20171103221905030" width="300">　　<img src="http://img.blog.csdn.net/20171103221934080" width="300">
 #### 模块二：鸡汤
