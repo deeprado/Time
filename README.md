@@ -14,6 +14,13 @@
 
 #### 关于app
 * 使用易源Api(SHOWAPI)接口
+* 开发时使用的版本
+```
+"react": "16.0.0-beta.5",
+"react-native": "0.49.5",
+"react-native-easy-toast": "^1.0.8",
+"react-navigation": "^1.0.0-beta.15"
+```
 
 #### 使用到的Library
 * [react-navigation](https://reactnavigation.org)
