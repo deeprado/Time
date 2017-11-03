@@ -31,5 +31,11 @@ export default {
      * 黑丝袜=39
      * 小翘臀=40
      */
-    images: 'http://route.showapi.com/819-1?showapi_appid=48910&maxResult=10&showapi_sign=1ba50b80ca5748c58eb51dde9e0f8336&'
+    images: 'http://route.showapi.com/819-1?showapi_appid=48910&maxResult=10&showapi_sign=1ba50b80ca5748c58eb51dde9e0f8336&',
+
+    /**
+     * 易源Api（励志语录）
+     */
+    quotations: 'http://route.showapi.com/1211-1?showapi_appid=48910&maxResult=10&showapi_sign=1ba50b80ca5748c58eb51dde9e0f8336&count=10',
+
 };

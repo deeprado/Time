@@ -13,7 +13,7 @@ import {
 } from 'react-navigation'
 
 import JokeMain from './src/main/joke/JokeMain';
-import DuanZi from './src/main/DuanZi';
+import Quotations from './src/main/Quotations';
 import GiftMain from './src/main/gift/GiftMain';
 import About from './src/main/About';
 import Details from './src/details/Details';
@@ -47,11 +47,11 @@ const Tab = TabNavigator({
 
         },
     },
-    DuanZi: {
-        screen: DuanZi,
+    Quotations: {
+        screen: Quotations,
         navigationOptions: {
             //stackNavigator的属性
-            headerTitle: '段子',
+            headerTitle: '鸡汤',
             gestureResponseDistance: {horizontal: 300},
             headerBackTitle: null,
             headerStyle: {backgroundColor: constant.primaryColor},//导航栏的样式
@@ -63,7 +63,7 @@ const Tab = TabNavigator({
                 alignSelf: 'center',
             },
             //tab 的属性
-            tabBarLabel: '段子',
+            tabBarLabel: '鸡汤',
             tabBarIcon: ({tintColor}) => (
                 <Image
                     source={require('./src/res/ic_duanzi.png')}
