@@ -27,9 +27,9 @@ export default class About extends Component {
                 <ScrollView>
                     <View style={styles.aboutAuthor}>
                         <Text style={styles.title}>about author</Text>
-                        {/*Blog*/}
+                        {/*CSDN*/}
                         <View style={{flexDirection: 'row'}}>
-                            <Text style={{color: constant.textBlack}}>　Blog：</Text>
+                            <Text style={{color: constant.textBlack}}>　CSDN：</Text>
                             <Text style={{color: constant.activeColor}} onPress={() => {
                                 this.props.navigation.navigate('Details', {title: 'CSDN', url: 'http://blog.csdn.net/a_zhon'})
                             }}>http://blog.csdn.net/a_zhon
