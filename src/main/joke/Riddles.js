@@ -6,8 +6,10 @@ import {
     FlatList,
     TouchableOpacity,
 } from 'react-native';
+
+
 //吐司
-import Toast, {DURATION} from 'react-native-easy-toast'
+import Toast, {DURATION} from '../../../src/common/EasyToast';
 
 /**
  * 首页笑话
