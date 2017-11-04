@@ -11,6 +11,11 @@
 #### 模块五：详情
 <img src="http://img.blog.csdn.net/20171103222845352" width="300">　　<img src="http://img.blog.csdn.net/20171103222906416" width="300">
 
+#### app下载体验
+
+Android 下载 | iOS下载 
+:---:|:---:
+<img src="http://img.blog.csdn.net/20171104212319712" width="160" height="160">|正在打包中
 
 #### 关于app
 * 使用易源Api(SHOWAPI)接口
