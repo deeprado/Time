@@ -17,7 +17,7 @@ export default class ErrorView extends Component {
         return (
             <View style={styles.container}>
                 <Image style={styles.image} source={require('../res/no_data.png')}/>
-                <Text style={styles.text}>暂无数据</Text>
+                <Text style={styles.text}>点击刷新</Text>
             </View>
         );
     }

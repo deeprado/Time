@@ -37,7 +37,13 @@ export default class Joke extends Component {
                 <StatusBar
                     backgroundColor={constant.primaryColor}
                     barStyle={'light-content'}/>
-                {content}
+                <TouchableOpacity activeOpacity={0.5} onPress={
+                    () => {
+                        this.onRefresh();
+                    }
+                }>
+                    {content}
+                </TouchableOpacity>
             </View>
         );
     }

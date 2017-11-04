@@ -36,7 +36,13 @@ export default class Riddles extends Component {
         const content = this.state.error ? <ErrorView/> : this.getFlatList();
         return (
             <View style={styles.container}>
-                {content}
+                <TouchableOpacity activeOpacity={0.5} onPress={
+                    () => {
+                        this.onRefresh();
+                    }
+                }>
+                    {content}
+                </TouchableOpacity>
                 <Toast
                     ref="toast"
                     style={{backgroundColor: '#676767'}}
