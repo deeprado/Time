@@ -15,7 +15,9 @@
 
 Android 下载 | iOS下载 
 :---:|:---:
-<img src="http://img.blog.csdn.net/20171104212319712" width="160" height="160">|正在打包中
+<a target="_blank" href="https://fir.im/jd3t"><img src="http://img.blog.csdn.net/20171104212319712" width="160" height="160">
+</a>
+|正在打包中
 
 #### 关于app
 * 使用易源Api(SHOWAPI)接口
