@@ -3,7 +3,7 @@
 ### Renderings　　[Gif renderings to see here](https://github.com/azhon/Time/tree/master/gif)
 
 #### Module one：joke — riddle
-<img src="http://img.blog.csdn.net/20171103221137967" width="300">　　<img src="http://img.blog.csdn.net/20171103221604995" width="300">　　<img src="http://img.blog.csdn.net/20171103221905030" width="300">　　<img src="http://img.blog.csdn.net/20171103221934080" width="300">
+<img src="http://img.blog.csdn.net/20171103221137967" width="300">　　<img src="http://img.blog.csdn.net/20171105110503361" width="300">　　<img src="http://img.blog.csdn.net/20171103221905030" width="300">　　<img src="http://img.blog.csdn.net/20171103221934080" width="300">
 #### Module two：chicken soup
 <img src="http://img.blog.csdn.net/20171103222356171" width="300">　　<img src="http://img.blog.csdn.net/20171103222414696" width="300">
 #### Module three：welfare
