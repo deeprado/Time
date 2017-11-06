@@ -17,7 +17,7 @@
 
 Android 下载 | iOS下载 
 :---:|:---:
-<a target="_blank" href="https://fir.im/jd3t"><img src="http://img.blog.csdn.net/20171104212319712" width="160" height="160">
+<a target="_blank" href="https://fir.im/p17j"><img src="http://img.blog.csdn.net/20171106125909580" width="160" height="160">
 </a>|正在打包中...
 
 #### 关于app
