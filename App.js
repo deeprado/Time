@@ -26,13 +26,17 @@ const styles = StyleSheet.create({
         },
     },
     iconStyle: {
-        ios: {},
+        ios: {
+            marginBottom: 5,
+        },
         android: {
             marginBottom: 5,
         },
     },
     labelStyle: {
-        ios: {},
+        ios: {
+            marginBottom: 5,
+        },
         android: {
             fontSize: 13,
             marginTop: -5,
