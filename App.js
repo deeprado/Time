@@ -12,6 +12,34 @@ import {
     StackNavigator,
 } from 'react-navigation'
 
+const StyleSheet = require('./src/common/StyleSheet');
+
+const styles = StyleSheet.create({
+    //结局ios上文字不垂直居中问题
+    tabHeight: {//TabNavigator 的背景颜色
+        ios: {
+            backgroundColor: 'white',
+        },
+        android: {
+            backgroundColor: 'white',
+            height: 55,
+        },
+    },
+    iconStyle: {
+        ios: {},
+        android: {
+            marginBottom: 5,
+        },
+    },
+    labelStyle: {
+        ios: {},
+        android: {
+            fontSize: 13,
+            marginTop: -5,
+            marginBottom: 5,
+        },
+    }
+});
 import JokeMain from './src/main/joke/JokeMain';
 import Quotations from './src/main/Quotations';
 import GiftMain from './src/main/gift/GiftMain';
@@ -142,21 +170,13 @@ const Tab = TabNavigator({
         showLabel: true,//是否显示label，默认开启
         activeTintColor: constant.activeColor,//label和icon的前景色 活跃状态下（选中）
         inactiveTintColor: constant.primaryColor,//label和icon的前景色 活跃状态下（未选中）
-        style: { //TabNavigator 的背景颜色
-            backgroundColor: 'white',
-            height: 55,
-        },
+        style: styles.tabHeight,
         indicatorStyle: {//标签指示器的样式对象（选项卡底部的行）。安卓底部会多出一条线，可以将height设置为0来暂时解决这个问题
             height: 0,
         },
-        labelStyle: {//文字的样式
-            fontSize: 13,
-            marginTop: -5,
-            marginBottom: 5,
-        },
-        iconStyle: {//图标的样式
-            marginBottom: 5,
-        }
+        labelStyle: styles.labelStyle,//文字的样式
+        //图标的样式
+        iconStyle: styles.iconStyle,
     },
 });
 /*
