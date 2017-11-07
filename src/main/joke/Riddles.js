@@ -124,7 +124,7 @@ export default class Riddles extends Component {
                 <View>
                     <Text style={styles.title}>{item.typeName}</Text>
                     {/*开头添加两个空格*/}
-                    <Text style={styles.content}>{'　　' + item.title}</Text>
+                    <Text style={styles.content} selectable={true}>{'　　' + item.title}</Text>
                 </View>
             </TouchableOpacity>
         )

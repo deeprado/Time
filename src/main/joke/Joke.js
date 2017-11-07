@@ -119,7 +119,7 @@ export default class Joke extends Component {
                 <View>
                     <Text style={styles.title}>{item.title}</Text>
                     {/*开头添加两个空格*/}
-                    <Text style={styles.content}>{'　　' + s}</Text>
+                    <Text style={styles.content} selectable={true}>{'　　' + s}</Text>
                 </View>
             </TouchableOpacity>
         )

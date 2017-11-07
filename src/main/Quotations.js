@@ -106,8 +106,8 @@ export default class Quotations extends Component {
         return (
             <TouchableOpacity style={styles.item} activeOpacity={0.5}>
                 <View>
-                    <Text style={styles.title}>{'　　' + item.english}</Text>
-                    <Text style={styles.content}>{'　　' + item.chinese}</Text>
+                    <Text style={styles.title} selectable={true}>{'　　' + item.english}</Text>
+                    <Text style={styles.content} selectable={true}>{'　　' + item.chinese}</Text>
                 </View>
             </TouchableOpacity>
         )
