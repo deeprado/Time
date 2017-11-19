@@ -62,13 +62,6 @@ Page({
 
   },
 
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  },
-  
   detail: function (e) {
     var data = e.currentTarget.dataset;
     var url = data.url;

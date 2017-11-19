@@ -29,7 +29,7 @@
   <!--源码地址  -->
   <view class='item-group'>
     <text class='title'> source code</text>
-    <text class='content' bindtap='detail' data-url='https://github.com/azhon/Time' data-title='SourceCode' selectable='true'>　https://github.com/azhon/Time</text>
+    <text class='content' selectable='true'>　https://github.com/azhon/Time/tree/WeChatApp</text>
   </view>
   <!--关于app  -->
   <view class='item-group'>

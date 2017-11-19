@@ -40,7 +40,10 @@ page {
   color: #38373c;
 }
 
+/* word-break: break-all; 实现自动换行  */
+
 .content {
+  word-break: break-all;
   font-size: 12pt;
   color: #02b4ff;
 }
@@ -57,5 +60,5 @@ page {
   justify-content: center;
   display: flex;
   font-size: 10pt;
-  color: #666666;
+  color: #666;
 }
