@@ -13,6 +13,9 @@
 #### Module five：details
 <img src="http://img.blog.csdn.net/20171103222845352" width="300">　　<img src="http://img.blog.csdn.net/20171103222906416" width="300">
 
+#### WeChatApp：https://github.com/azhon/Time/tree/WeChatApp
+> You can also search in WeChat applet <font color="red">`阿钟程序猿`</font>
+
 #### app download experience
 
 Android Download | iOS Download 
@@ -61,3 +64,4 @@ animationEnabled: false,
 swipeEnabled: false,
 ```
 * [When using TabNavigator in React Native, text is not centered vertically when text is set to tab](http://blog.csdn.net/a_zhon/article/details/78432619) 
+

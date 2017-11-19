@@ -13,6 +13,9 @@
 #### 模块五：详情
 <img src="http://img.blog.csdn.net/20171103222845352" width="300">　　<img src="http://img.blog.csdn.net/20171103222906416" width="300">
 
+#### 微信小程序版本：https://github.com/azhon/Time/tree/WeChatApp
+> 也可以在微信小程序中搜索 <font color="red">`阿钟程序猿`</font>
+
 #### app下载体验
 
 Android 下载 | iOS下载 
@@ -61,3 +64,4 @@ animationEnabled: false,
 swipeEnabled: false,
 ```
 * [解决React Native中使用TabNavigator时、对tab只设置文字时文字没有垂直居中](http://blog.csdn.net/a_zhon/article/details/78432619) 
+
