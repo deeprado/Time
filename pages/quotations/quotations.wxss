@@ -1,0 +1,39 @@
+/* pages/quotations/quotations.wxss */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 0;
+  color: transparent;
+}
+
+/* 设置页面的背景颜色  */
+
+page {
+  background-color: #eee;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.title {
+  display: flex;
+  color: #666666;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12pt;
+}
+
+.content {
+  display: flex;
+  margin: 10px;
+  color: #38373C;
+  font-size: 12pt;
+}

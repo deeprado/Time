@@ -1,4 +1,45 @@
 {
-  "name": "Time",
-  "displayName": "Time"
+  "pages": [
+    "pages/joke/joke",
+    "pages/riddles/riddles",
+    "pages/quotations/quotations",
+    "pages/about/about",
+    "pages/detail/detail"
+  ],
+  "tabBar": {
+    "color": "#38373C",
+    "selectedColor": "#02B4FF",
+    "list": [
+      {
+        "pagePath": "pages/joke/joke",
+        "iconPath": "images/ic_joke.png",
+        "selectedIconPath": "images/ic_joke_ed.png",
+        "text": "笑话"
+      },
+      {
+        "pagePath": "pages/riddles/riddles",
+        "iconPath": "images/ic_riddles.png",
+        "selectedIconPath": "images/ic_riddles_ed.png",
+        "text": "谜语"
+      },
+      {
+        "pagePath": "pages/quotations/quotations",
+        "iconPath": "images/ic_duanzi.png",
+        "selectedIconPath": "images/ic_duanzi_ed.png",
+        "text": "鸡汤"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "images/ic_about.png",
+        "selectedIconPath": "images/ic_about_ed.png",
+        "text": "关于"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "#38373C",
+    "navigationBarBackgroundColor": "#38373C",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "white"
+  }
 }

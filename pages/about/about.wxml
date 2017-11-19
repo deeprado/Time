@@ -1,0 +1,44 @@
+<!--pages/about/about.wxml-->
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="2000" duration="500">
+  <block wx:for="{{banner}}" wx:key="index" wx:for-index="index">
+    <swiper-item>
+      <image class="image" src="{{item}}" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<scroll-view scroll-y style="width: 100%">
+  <view class='item-group'>
+    <text class='title'> about author</text>
+    <!-- CSDN -->
+    <view>
+      <text class='content-title'>　CSDN：</text>
+      <text class='content' bindtap='detail' data-url='http://blog.csdn.net/a_zhon' data-title='CSDN' selectable='true'>http://blog.csdn.net/a_zhon</text>
+    </view>
+    <!-- Github -->
+    <view>
+      <text class='content-title'>　Github：</text>
+      <text class='content' bindtap='detail' data-url='https://github.com/azhon' data-title='Github' selectable='true'>https://github.com/azhon</text>
+    </view>
+    <!-- Email -->
+    <view>
+      <text class='content-title'>　Email：</text>
+      <text class='content' selectable='true'>95846024@qq.com</text>
+    </view>
+  </view>
+  <!--源码地址  -->
+  <view class='item-group'>
+    <text class='title'> source code</text>
+    <text class='content' bindtap='detail' data-url='https://github.com/azhon/Time' data-title='SourceCode' selectable='true'>　https://github.com/azhon/Time</text>
+  </view>
+  <!--关于app  -->
+  <view class='item-group'>
+    <text class='title'> about app</text>
+    <text class='content-black'>　温馨提示：建议WiFi状态下使用</text>
+    <text class='content-black'>　使用易源Api(SHOWAPI)接口</text>
+  </view>
+  <!--我是有底线的  -->
+  <view class='item-group'>
+    <text class='bottom'>我是有底线的（文字长按可以复制呦！）</text>
+  </view>
+</scroll-view>
