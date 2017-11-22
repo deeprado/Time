@@ -14,7 +14,9 @@
 <img src="http://img.blog.csdn.net/20171103222845352" width="300">　　<img src="http://img.blog.csdn.net/20171103222906416" width="300">
 
 #### 微信小程序版本：https://github.com/azhon/Time/tree/WeChatApp
-> 也可以在微信小程序中搜索 <font color="red">`阿钟程序猿`</font>
+> 在微信小程序中搜索 <font color="red">`阿钟程序猿`</font>或者微信扫描下方二维码进入小程序
+
+<img src="http://img.blog.csdn.net/20171122125331856" width="200">
 
 #### app下载体验
 
