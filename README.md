@@ -14,7 +14,9 @@
 <img src="http://img.blog.csdn.net/20171103222845352" width="300">　　<img src="http://img.blog.csdn.net/20171103222906416" width="300">
 
 #### WeChatApp：https://github.com/azhon/Time/tree/WeChatApp
-> You can also search in WeChat applet <font color="red">`阿钟程序猿`</font>
+> You can also search in WeChat applet <font color="red">`阿钟程序猿`</font>or use WeChat scan the QR code below to enter the applet
+
+<img src="http://img.blog.csdn.net/20171122125331856" width="200">
 
 #### app download experience
 
