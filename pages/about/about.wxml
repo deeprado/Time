@@ -7,38 +7,56 @@
   </block>
 </swiper>
 
-<scroll-view scroll-y style="width: 100%">
-  <view class='item-group'>
-    <text class='title'> about author</text>
-    <!-- CSDN -->
-    <view>
-      <text class='content-title'>　CSDN：</text>
-      <text class='content' bindtap='detail' data-url='http://blog.csdn.net/a_zhon' data-title='CSDN' selectable='true'>http://blog.csdn.net/a_zhon</text>
-    </view>
-    <!-- Github -->
-    <view>
-      <text class='content-title'>　Github：</text>
-      <text class='content' bindtap='detail' data-url='https://github.com/azhon' data-title='Github' selectable='true'>https://github.com/azhon</text>
-    </view>
-    <!-- Email -->
-    <view>
-      <text class='content-title'>　Email：</text>
-      <text class='content' selectable='true'>95846024@qq.com</text>
-    </view>
+<view class='divider-view' />
+<view class='item-group'>
+  <text class='title'> 关于作者</text>
+  <!-- CSDN -->
+  <view>
+    <text class='content-title'>　CSDN：</text>
+    <text class='content' bindtap='detail' data-url='http://blog.csdn.net/a_zhon' data-title='CSDN' selectable='true'>http://blog.csdn.net/a_zhon</text>
   </view>
-  <!--源码地址  -->
-  <view class='item-group'>
-    <text class='title'> source code</text>
-    <text class='content' selectable='true'>　https://github.com/azhon/Time/tree/WeChatApp</text>
+  <!-- Github -->
+  <view>
+    <text class='content-title'>　Github：</text>
+    <text class='content' bindtap='detail' data-url='https://github.com/azhon' data-title='Github' selectable='true'>https://github.com/azhon</text>
   </view>
-  <!--关于app  -->
-  <view class='item-group'>
-    <text class='title'> about app</text>
-    <text class='content-black'>　温馨提示：建议WiFi状态下使用</text>
-    <text class='content-black'>　使用易源Api(SHOWAPI)接口</text>
+  <!-- Email -->
+  <view>
+    <text class='content-title'>　Email：</text>
+    <text class='content' selectable='true'>95846024@qq.com</text>
   </view>
-  <!--我是有底线的  -->
-  <view class='item-group'>
-    <text class='bottom'>我是有底线的（文字长按可以复制呦！）</text>
+</view>
+
+<view class='divider-view' />
+<!--源码地址  -->
+<view class='item-group'>
+  <text class='title'> 源码地址</text>
+  <text class='content' selectable='true'>　https://github.com/azhon/Time/tree/WeChatApp</text>
+</view>
+
+<view class='divider-view' />
+<!--友情链接  -->
+<view class='item-group'>
+  <text class='title'> 友情链接</text>
+  <view>
+    <text class='content-title'>　尚尚的小程序：</text>
+    <text class='content' selectable='true'>我很随便的</text>
   </view>
-</scroll-view>
+</view>
+
+<view class='divider-view' />
+<!--关于app  -->
+<view class='item-group'>
+  <text class='title'> 关于软件</text>
+  <text class='content-black'>　温馨提示：建议WiFi状态下使用</text>
+  <text class='content-black'>　使用易源Api(SHOWAPI)接口</text>
+</view>
+
+<!--我是有底线的  -->
+<view class='about-divider'>
+  <view class='about-divider-line' />
+  <image class='about-divider-point' src='../../images/ic_point.png' />
+  <text class='about-divider-text'>我是有底线的</text>
+  <image class='about-divider-point' src='../../images/ic_point.png' />
+  <view class='about-divider-line' />
+</view>
