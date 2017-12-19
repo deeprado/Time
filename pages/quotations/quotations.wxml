@@ -2,7 +2,7 @@
 <view wx:for="{{array}}" wx:key="index">
   <!-- class 引用样式  -->
   <view class='item'>
-    <text class='title'>{{'　　'+item.english}}</text>
-    <text class='content'>{{'　　'+item.chinese}}</text>
+    <text class='title' selectable='true'>{{'　　'+item.english}}</text>
+    <text class='content' selectable='true'>{{'　　'+item.chinese}}</text>
   </view>
 </view>

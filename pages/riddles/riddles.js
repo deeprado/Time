@@ -60,7 +60,6 @@ Page({
     // 解决成功回调后 this.setData({}) 错误
     var that = this;
     var typeId = this.data.typeId[Math.floor(Math.random() * 10)];
-    console.log(typeId),
     wx.request({
       url: constant.riddles,
       data: {
