@@ -1,8 +1,8 @@
 <!--pages/quotations/quotations.wxml-->
 <view wx:for="{{array}}" wx:key="index">
   <!-- class 引用样式  -->
-  <view class='item'>
-    <text class='title' selectable='true'>{{'　　'+item.english}}</text>
-    <text class='content' selectable='true'>{{'　　'+item.chinese}}</text>
+  <view class='item' bindtap='copy' data-item='{{item}}'>
+    <text class='title'>{{'　　'+item.english}}</text>
+    <text class='content'>{{'　　'+item.chinese}}</text>
   </view>
 </view>

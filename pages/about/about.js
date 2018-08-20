@@ -6,10 +6,10 @@ Page({
    */
   data: {
     banner: [
-      'http://oweq6in8r.bkt.clouddn.com/Color%20Burst%201.jpg',
-      'http://oweq6in8r.bkt.clouddn.com/liuliangqiu.jpg',
-      'http://oweq6in8r.bkt.clouddn.com/Earth%20and%20Moon.jpg',
-      'http://imgstore.cdn.sogou.com/app/a/100540002/593589.jpg'
+      'https://p3a.pstatp.com/weili/l/198948795094138901.jpg',
+      'https://p3a.pstatp.com/weili/l/189499179848171758.jpg',
+      'https://p3a.pstatp.com/weili/l/201978301815980037.jpg',
+      'https://p3a.pstatp.com/weili/l/189481948439380639.jpg'
     ]
   },
 

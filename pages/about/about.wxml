@@ -48,7 +48,7 @@
 <!--关于app  -->
 <view class='item-group'>
   <text class='title'> 关于软件</text>
-  <text class='content-black'>　温馨提示：建议WiFi状态下使用</text>
+  <text class='content-black'>　温馨提示：点击条目可以复制内容哟</text>
   <text class='content-black'>　使用易源Api(SHOWAPI)接口</text>
 </view>
 

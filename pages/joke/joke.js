@@ -47,7 +47,22 @@ Page({
   onUnload: function () {
 
   },
-
+  /**
+     * 列表点击事件
+     */
+  copy: function (e) {
+    var data = e.currentTarget.dataset;
+    var item = data.item
+    console.log(item)
+    wx.setClipboardData({
+      data: item.text,
+    })
+    wx.showToast({
+      title: '已复制到剪贴板',
+      icon: 'success',
+      duration: 1000
+    })
+  },
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */

@@ -1,7 +1,6 @@
 {
   "pages": [
     "pages/joke/joke",
-    "pages/riddles/riddles",
     "pages/quotations/quotations",
     "pages/about/about",
     "pages/detail/detail"
@@ -15,12 +14,6 @@
         "iconPath": "images/ic_joke.png",
         "selectedIconPath": "images/ic_joke_ed.png",
         "text": "笑话"
-      },
-      {
-        "pagePath": "pages/riddles/riddles",
-        "iconPath": "images/ic_riddles.png",
-        "selectedIconPath": "images/ic_riddles_ed.png",
-        "text": "谜语"
       },
       {
         "pagePath": "pages/quotations/quotations",
