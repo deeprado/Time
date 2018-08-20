@@ -28,10 +28,15 @@ function request(url, page, count, success, fail) {
       page: page,
       count: count,
     },
-    success: function (res) {
-      success(res.data)
+    success: function(res) {
+      if (res.data.showapi_res_code != 0) {
+        fail('Api不可用,请联系开发者')
+        console.log(res.data.showapi_res_error)
+      } else {
+        success(res.data)
+      }
     },
-    fail: function () {
+    fail: function() {
       fail('网络错误')
     }
   })
