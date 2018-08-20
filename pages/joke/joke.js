@@ -53,7 +53,6 @@ Page({
   copy: function (e) {
     var data = e.currentTarget.dataset;
     var item = data.item
-    console.log(item)
     wx.setClipboardData({
       data: item.text,
     })

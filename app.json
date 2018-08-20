@@ -2,6 +2,7 @@
   "pages": [
     "pages/joke/joke",
     "pages/quotations/quotations",
+    "pages/wallpaper/wallpaer",
     "pages/about/about",
     "pages/detail/detail"
   ],
@@ -20,6 +21,12 @@
         "iconPath": "images/ic_duanzi.png",
         "selectedIconPath": "images/ic_duanzi_ed.png",
         "text": "鸡汤"
+      },
+      {
+        "pagePath": "pages/wallpaper/wallpaer",
+        "iconPath": "images/ic_about.png",
+        "selectedIconPath": "images/ic_about_ed.png",
+        "text": "壁纸"
       },
       {
         "pagePath": "pages/about/about",
