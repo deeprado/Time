@@ -7,9 +7,14 @@ var jokeUrl = 'https://route.showapi.com/341-1';
  */
 var quotations = 'https://route.showapi.com/1211-1'
 /**
- * 易源Api（猜一猜
+ * 易源Api（鬼故事）
  */
-var riddles = 'https://route.showapi.com//151-4'
+var story = 'https://route.showapi.com/955-1'
+/**
+ * 易源Api（鬼故事详情）
+ */
+var storyDetail = 'https://route.showapi.com/955-2'
+
 
 /**
  * 网络请求
@@ -28,7 +33,7 @@ function request(url, page, count, success, fail) {
       page: page,
       count: count,
     },
-    success: function(res) {
+    success: function (res) {
       if (res.data.showapi_res_code != 0) {
         fail('Api不可用,请联系开发者')
         console.log(res.data.showapi_res_error)
@@ -36,17 +41,42 @@ function request(url, page, count, success, fail) {
         success(res.data)
       }
     },
-    fail: function() {
+    fail: function () {
+      fail('网络错误')
+    }
+  })
+}
+/**
+ * 网络请求
+ */
+function request2(url, data, success, fail) {
+  if (typeof success != 'function' || typeof fail != 'function') {
+    return
+  }
+  wx.request({
+    url: url,
+    // 参数
+    data: data,
+    success: function (res) {
+      if (res.data.showapi_res_code != 0) {
+        fail('Api不可用,请联系开发者')
+        console.log(res.data.showapi_res_error)
+      } else {
+        success(res.data)
+      }
+    },
+    fail: function () {
       fail('网络错误')
     }
   })
 }
 
-
 //导出我们定义好的变量
 module.exports = {
   jokeUrl: jokeUrl,
-  riddles: riddles,
+  story: story,
+  storyDetail: storyDetail,
   quotations: quotations,
   request: request,
+  request2: request2,
 };

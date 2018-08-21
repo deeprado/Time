@@ -1,0 +1,55 @@
+/* pages/story/story.wxss */
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 0;
+  color: transparent;
+}
+
+/* 设置页面的背景颜色  */
+
+page {
+  background-color: #eee;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.item-content {
+  display: flex;
+  margin: 7px;
+  width: 100%;
+  flex-direction: row;
+}
+
+.img {
+  width: 30vw;
+  margin-top: 7px;
+  margin-right: 7px;
+  margin-bottom: 7px;
+  margin-left: 4px;
+  border-radius: 5px;
+}
+
+.title {
+  display: flex;
+  color: #38373c;
+  margin-top: 10px;
+  font-size: 13pt;
+}
+
+.content {
+  margin-left: 7px;
+  width: 70vw;
+  color: #666;
+  font-size: 11pt;
+}

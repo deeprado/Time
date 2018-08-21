@@ -1,23 +1,27 @@
-// pages/wallpaper/wallpaer.js
+// pages/storyDetail/storyDetail.js
 var constant = require("../../utils/contant.js");
 
 Page({
+
   /**
    * 页面的初始数据
    */
   data: {
-    page: 1,
-    loadMore: false,
-    array: [],
+    url: '',
+    text: '',
   },
-
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    //调用函数
-    // this.requestData()
+    this.setData({
+      url: options.url,
+    })
+    wx.setNavigationBarTitle({
+      title: options.title,
+    })
+    this.requestData();
   },
 
   /**
@@ -62,33 +66,25 @@ Page({
 
   },
   /**
-     * 请求数据
-     */
+       * 请求数据
+       */
   requestData: function () {
     this.showLoading();
     // 解决成功回调后 this.setData({}) 错误
     var that = this;
-    constant.request(constant.wallpaper, that.data.page, '', function (res) {
-      var data = res['showapi_res_body'];
-      console.log(res)
-      var list = data['contentlist'];
-      if (that.data.loadMore) {//上拉加载
-        //与之前的数组重新生成一个新数组
-        const newArray = that.data.array.concat(list);
-        //更新 上拉加载状态 数据
-        that.setData({
-          array: newArray,
-          loadMore: false,
-        });
-      } else {
-        //隐藏下拉刷新动画icon
-        wx.stopPullDownRefresh();
-        //下拉刷新
-        that.setData({
-          array: list
-        });
-      }
-      //隐藏loadingDialog
+    var data = {
+      'showapi_appid': '48910',
+      'showapi_sign': '1ba50b80ca5748c58eb51dde9e0f8336',
+      'id': that.data.url,
+      'page': '1',
+    };
+    console.log(that.data.url)
+    constant.request2(constant.storyDetail, data, function (res) {
+      var body = res['showapi_res_body'];
+      var text = that.convert(body.text);
+      that.setData({
+        text: text
+      });
       that.hideLoading();
     }, function (reason) {
       //隐藏loadingDialog
@@ -104,5 +100,13 @@ Page({
   },
   hideLoading: function () {
     wx.hideNavigationBarLoading()
+  },
+  /**
+   * 将\r\n 替换成<br>
+   * 将&nbsp;替换成空格
+   */
+  convert: function (text) {
+    var str = text.replace(/(\r\n)|(\n)/g, '<br>');
+    return str.replace(/&nbsp;&nbsp;&nbsp;/gi, '　　')
   }
 })

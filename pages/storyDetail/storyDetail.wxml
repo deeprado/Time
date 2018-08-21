@@ -1,0 +1,2 @@
+<!--pages/storyDetail/storyDetail.wxml-->
+<rich-text class='item' nodes="{{text}}" />

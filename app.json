@@ -1,10 +1,11 @@
 {
   "pages": [
     "pages/joke/joke",
+    "pages/story/story",
     "pages/quotations/quotations",
-    "pages/wallpaper/wallpaer",
     "pages/about/about",
-    "pages/detail/detail"
+    "pages/detail/detail",
+    "pages/storyDetail/storyDetail"
   ],
   "tabBar": {
     "color": "#38373C",
@@ -17,22 +18,22 @@
         "text": "笑话"
       },
       {
+        "pagePath": "pages/story/story",
+        "iconPath": "images/ic_story.png",
+        "selectedIconPath": "images/ic_story_ed.png",
+        "text": "故事"
+      },
+      {
         "pagePath": "pages/quotations/quotations",
         "iconPath": "images/ic_duanzi.png",
         "selectedIconPath": "images/ic_duanzi_ed.png",
         "text": "鸡汤"
       },
       {
-        "pagePath": "pages/wallpaper/wallpaer",
-        "iconPath": "images/ic_about.png",
-        "selectedIconPath": "images/ic_about_ed.png",
-        "text": "壁纸"
-      },
-      {
         "pagePath": "pages/about/about",
         "iconPath": "images/ic_about.png",
         "selectedIconPath": "images/ic_about_ed.png",
-        "text": "关于"
+        "text": "我的"
       }
     ]
   },
