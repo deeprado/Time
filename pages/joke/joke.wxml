@@ -3,8 +3,13 @@
 <view wx:for="{{array}}" wx:key="index">
   <!-- class 引用样式  -->
   <view class='item' bindtap='copy' data-item='{{item}}'>
-    <text class='title'>{{item.title}}</text>
-    <!-- 开头添加两个空格 展示html 富文本内容  -->
-    <rich-text class='content' nodes="{{'　　'+item.text}}" />
+    <block wx:if="{{item.itemType==0}}">
+      <text class='title'>{{item.title}}</text>
+      <!-- 开头添加两个空格 展示html 富文本内容  -->
+      <rich-text class='content' nodes="{{'　　'+item.text}}" />
+    </block>
+    <block wx:if="{{item.itemType==1}}">
+      <ad unit-id="adunit-7eb0ace6f41f2361"></ad>
+    </block>
   </view>
 </view>

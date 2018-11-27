@@ -15,7 +15,7 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  onLoad: function(options) {
     //调用函数
     this.requestData()
   },
@@ -23,34 +23,34 @@ Page({
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function () {
+  onReady: function() {
 
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function () {
+  onShow: function() {
 
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
-  onHide: function () {
+  onHide: function() {
 
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
-  onUnload: function () {
+  onUnload: function() {
 
   },
   /**
-     * 列表点击事件
-     */
-  copy: function (e) {
+   * 列表点击事件
+   */
+  copy: function(e) {
     var data = e.currentTarget.dataset;
     var item = data.item
     wx.setClipboardData({
@@ -65,7 +65,7 @@ Page({
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
-  onPullDownRefresh: function () {
+  onPullDownRefresh: function() {
     this.setData({
       page: 1,
     })
@@ -75,7 +75,7 @@ Page({
   /**
    * 页面上拉触底事件的处理函数
    */
-  onReachBottom: function () {
+  onReachBottom: function() {
     this.setData({
       loadMore: true,
       page: this.data.page + 1,
@@ -86,14 +86,16 @@ Page({
   /**
    * 请求数据
    */
-  requestData: function () {
+  requestData: function() {
     this.showLoading();
     // 解决成功回调后 this.setData({}) 错误
     var that = this;
-    constant.request(constant.jokeUrl, that.data.page, '', function (res) {
+    constant.request(constant.jokeUrl, that.data.page, '', function(res) {
       var data = res['showapi_res_body'];
       var list = data['contentlist'];
-      if (that.data.loadMore) {//上拉加载
+      that.addAdOnLast(list);
+      console.log(list);
+      if (that.data.loadMore) { //上拉加载
         //与之前的数组重新生成一个新数组
         const newArray = that.data.array.concat(list);
         //更新 上拉加载状态 数据
@@ -111,19 +113,29 @@ Page({
       }
       //隐藏loadingDialog
       that.hideLoading();
-    }, function (reason) {
+    }, function(reason) {
       //隐藏loadingDialog
       that.hideLoading();
       console.log(reason);
     })
   },
+  //在列表最后添加一个广告
+  addAdOnLast: function(list) {
+    for (var i = 0; i < list.length; i++) {
+      list[i].itemType = 0;
+    }
+    list.push({
+      title: "广告",
+      itemType: 1
+    })
+  },
   /**
    * 标题栏等待loading
    */
-  showLoading: function () {
+  showLoading: function() {
     wx.showNavigationBarLoading()
   },
-  hideLoading: function () {
+  hideLoading: function() {
     wx.hideNavigationBarLoading()
   }
 
