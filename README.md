@@ -3,26 +3,26 @@
 ### Renderings　　[Gif renderings to see here](https://github.com/azhon/Time/tree/master/gif)
 
 #### Module one：joke — riddle
-<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103221137967" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171105110503361" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103221905030" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103221934080" width="300">
+<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103221137967.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171105110503361.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103221905030.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103221934080.png" width="300">
 #### Module two：chicken soup
-<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222356171" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222414696" width="300">
+<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222356171.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222414696.png" width="300">
 #### Module three：welfare
-<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222546175" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222609872" width="300">
+<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222546175.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222609872.png" width="300">
 #### Module four：about
-<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222733627" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222755612" width="300">
+<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222733627.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222755612.png" width="300">
 #### Module five：details
-<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222845352" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222906416" width="300">
+<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222845352.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222906416.png" width="300">
 
 #### WeChatApp：https://github.com/azhon/Time/tree/WeChatApp
 > You can also search in WeChat applet <font color="red">`阿钟程序猿`</font>or use WeChat scan the QR code below to enter the applet
 
-<img src="https://github.com/azhon/Time/blob/master/effectImage/20171122125331856" width="200">
+<img src="https://github.com/azhon/Time/blob/master/effectImage/20171122125331856.png" width="200">
 
 #### app download experience
 
 Android Download | iOS Download 
 :---:|:---:
-<a target="_blank" href="https://fir.im/p17j"><img src="https://github.com/azhon/Time/blob/master/effectImage/20171106125909580" width="160" height="160">
+<a target="_blank" href="https://fir.im/p17j"><img src="https://github.com/azhon/Time/blob/master/effectImage/20171106125909580.png" width="160" height="160">
 </a>|Being packaged...
 
 #### about app
