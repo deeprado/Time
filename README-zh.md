@@ -1,6 +1,6 @@
 ### [English Documents](https://github.com/azhon/Time/blob/master/README.md)
 
-### 效果图　　[动态效果图看这里](https://github.com/azhon/Time/tree/master/gif)https://github.com/azhon/Time/blob/master/effectImage
+### 效果图　　[动态效果图看这里](https://github.com/azhon/Time/tree/master/gif)
 
 #### 模块一：笑话 — 谜语
 <img src="https://github.com/azhon/Time/blob/master/effectImage/20171103221137967.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171105110503361.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103221905030.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103221934080.png" width="300">
