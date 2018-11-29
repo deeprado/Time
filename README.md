@@ -16,7 +16,7 @@
 #### WeChatApp：https://github.com/azhon/Time/tree/WeChatApp
 > You can also search in WeChat applet <font color="red">`阿钟程序猿`</font>or use WeChat scan the QR code below to enter the applet
 
-<img src="https://github.com/azhon/Time/blob/master/effectImage/20171122125331856.png" width="200">
+<img src="https://github.com/azhon/Time/blob/master/effectImage/20171122125331856.jpeg" width="200">
 
 #### app download experience
 
