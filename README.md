@@ -1,33 +1,33 @@
-### [中文文档](https://github.com/azhon/Time/blob/master/README-zh.md)
+### [English Documents](https://github.com/azhon/Time/blob/master/README-en.md)
 
-### Renderings　　[Gif renderings to see here](https://github.com/azhon/Time/tree/master/gif)
+### 效果图　　[动态效果图看这里](https://github.com/azhon/Time/tree/master/gif)
 
-#### Module one：joke — riddle
+#### 模块一：笑话 — 谜语
 <img src="https://github.com/azhon/Time/blob/master/effectImage/20171103221137967.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171105110503361.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103221905030.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103221934080.png" width="300">
-#### Module two：chicken soup
+#### 模块二：鸡汤
 <img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222356171.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222414696.png" width="300">
-#### Module three：welfare
+#### 模块三：福利
 <img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222546175.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222609872.png" width="300">
-#### Module four：about
+#### 模块四：关于
 <img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222733627.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222755612.png" width="300">
-#### Module five：details
+#### 模块五：详情
 <img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222845352.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222906416.png" width="300">
 
-#### WeChatApp：https://github.com/azhon/Time/tree/WeChatApp
-> You can also search in WeChat applet <font color="red">`阿钟程序猿`</font>or use WeChat scan the QR code below to enter the applet
+#### 微信小程序版本：https://github.com/azhon/Time/tree/WeChatApp
+> 在微信小程序中搜索 <font color="red">`阿钟程序猿`</font>或者微信扫描下方二维码进入小程序
 
 <img src="https://github.com/azhon/Time/blob/master/effectImage/20171122125331856.jpeg" width="200">
 
-#### app download experience
+#### app下载体验
 
-Android Download | iOS Download 
+Android 下载 | iOS下载 
 :---:|:---:
 <a target="_blank" href="https://fir.im/p17j"><img src="https://github.com/azhon/Time/blob/master/effectImage/20171106125909580.png" width="160" height="160">
-</a>|Being packaged...
+</a>|正在打包中...
 
-#### about app
-* use SHOWAPI(易源) Api
-* Development of the version used
+#### 关于app
+* 使用易源Api(SHOWAPI)
+* 开发时使用的版本
 ```
 Environment:
   OS:  macOS Sierra 10.12.6
@@ -45,7 +45,7 @@ Packages: (wanted => installed)
     react-native-easy-toast: "^1.0.8",
 ```
 
-#### Use of the library
+#### 使用到的Library
 * [react-navigation](https://reactnavigation.org)
 ```
 $ npm install --save react-navigation
@@ -54,16 +54,16 @@ $ npm install --save react-navigation
 ```
 $ npm install react-native-easy-toast --save
 ```
-#### Problems encountered：
+#### 遇到的问题：
 
-* TabNavigator Nested TabNavigator：
+* TabNavigator嵌套TabNavigator：
 
 ```
-//The second TabNavigator need to set the following properties
-//See the code in Main.js
+//第二个TabNavigator需要设置如下属性
+//参考Main.js中的代码
 animationEnabled: false,
 
 swipeEnabled: false,
 ```
-* [When using TabNavigator in React Native, text is not centered vertically when text is set to tab](http://blog.csdn.net/a_zhon/article/details/78432619) 
+* [解决React Native中使用TabNavigator时、对tab只设置文字时文字没有垂直居中](http://blog.csdn.net/a_zhon/article/details/78432619) 
 
