@@ -1,28 +1,28 @@
 ### [English Documents](https://github.com/azhon/Time/blob/master/README.md)
 
-### 效果图　　[动态效果图看这里](https://github.com/azhon/Time/tree/master/gif)
+### 效果图　　[动态效果图看这里](https://github.com/azhon/Time/tree/master/gif)https://github.com/azhon/Time/blob/master/effectImage
 
 #### 模块一：笑话 — 谜语
-<img src="http://img.blog.csdn.net/20171103221137967" width="300">　　<img src="http://img.blog.csdn.net/20171105110503361" width="300">　　<img src="http://img.blog.csdn.net/20171103221905030" width="300">　　<img src="http://img.blog.csdn.net/20171103221934080" width="300">
+<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103221137967.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171105110503361.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103221905030.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103221934080.png" width="300">
 #### 模块二：鸡汤
-<img src="http://img.blog.csdn.net/20171103222356171" width="300">　　<img src="http://img.blog.csdn.net/20171103222414696" width="300">
+<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222356171.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222414696.png" width="300">
 #### 模块三：福利
-<img src="http://img.blog.csdn.net/20171103222546175" width="300">　　<img src="http://img.blog.csdn.net/20171103222609872" width="300">
+<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222546175.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222609872.png" width="300">
 #### 模块四：关于
-<img src="http://img.blog.csdn.net/20171103222733627" width="300">　　<img src="http://img.blog.csdn.net/20171103222755612" width="300">
+<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222733627.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222755612.png" width="300">
 #### 模块五：详情
-<img src="http://img.blog.csdn.net/20171103222845352" width="300">　　<img src="http://img.blog.csdn.net/20171103222906416" width="300">
+<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222845352.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222906416.png" width="300">
 
 #### 微信小程序版本：https://github.com/azhon/Time/tree/WeChatApp
 > 在微信小程序中搜索 <font color="red">`阿钟程序猿`</font>或者微信扫描下方二维码进入小程序
 
-<img src="http://img.blog.csdn.net/20171122125331856" width="200">
+<img src="https://github.com/azhon/Time/blob/master/effectImage/20171122125331856.jpeg" width="200">
 
 #### app下载体验
 
 Android 下载 | iOS下载 
 :---:|:---:
-<a target="_blank" href="https://fir.im/p17j"><img src="http://img.blog.csdn.net/20171106125909580" width="160" height="160">
+<a target="_blank" href="https://fir.im/p17j"><img src="https://github.com/azhon/Time/blob/master/effectImage/20171106125909580.png" width="160" height="160">
 </a>|正在打包中...
 
 #### 关于app
