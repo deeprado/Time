@@ -7,7 +7,7 @@
       <text class='content'>{{'　　'+item.chinese}}</text>
     </block>
     <block wx:if="{{item.itemType==1}}">
-      <ad unit-id="adunit-7eb0ace6f41f2361"></ad>
+      <ad unit-id="adunit-b6449d6ce9f4ac2e"></ad>
     </block>
   </view>
 </view>
