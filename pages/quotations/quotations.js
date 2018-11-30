@@ -94,6 +94,7 @@ Page({
     constant.request(constant.quotations, '', '10', function (res) {
       var data = res['showapi_res_body'];
       var list = data['data'];
+      that.addAdOnLast(list);
       if (that.data.loadMore) {//上拉加载
         //与之前的数组重新生成一个新数组
         const newArray = that.data.array.concat(list);
@@ -116,6 +117,16 @@ Page({
       //隐藏loadingDialog
       that.hideLoading();
       console.log(reason);
+    })
+  },
+  //在列表最后添加一个广告
+  addAdOnLast: function (list) {
+    for (var i = 0; i < list.length; i++) {
+      list[i].itemType = 0;
+    }
+    list.push({
+      title: "广告",
+      itemType: 1
     })
   },
   /**

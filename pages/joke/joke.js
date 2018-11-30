@@ -94,7 +94,6 @@ Page({
       var data = res['showapi_res_body'];
       var list = data['contentlist'];
       that.addAdOnLast(list);
-      console.log(list);
       if (that.data.loadMore) { //上拉加载
         //与之前的数组重新生成一个新数组
         const newArray = that.data.array.concat(list);

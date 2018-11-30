@@ -2,11 +2,17 @@
 <view wx:for="{{array}}" wx:key="index">
   <!-- class 引用样式  -->
   <view class='item' bindtap='toDetails' data-item='{{item}}'>
-    <text class='title'>{{item.title}}</text>
-    <view class='item-content'>
+    <block wx:if="{{item.itemType==0}}">
+      <text class='title'>{{item.title}}</text>
       <!-- 开头添加两个空格 展示html 富文本内容  -->
-      <rich-text class='content' nodes="{{'　'+item.desc}}" />
-      <image class='img' mode='widthFix' src='{{item.img}}'></image>
-    </view>
+      <view class='item-content'>
+        <!-- 开头添加两个空格 展示html 富文本内容  -->
+        <rich-text class='content' nodes="{{'　'+item.desc}}" />
+        <image class='img' mode='widthFix' src='{{item.img}}'></image>
+      </view>
+    </block>
+    <block wx:if="{{item.itemType==1}}">
+      <ad unit-id="adunit-b77ac38e08595bc3"></ad>
+    </block>
   </view>
 </view>

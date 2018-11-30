@@ -149,6 +149,11 @@ Page({
       if (desc.length >= 55) {
         list[i].desc = desc.substring(0, 55) + "..."
       }
+      list[i].itemType = 0;
     }
+    list.push({
+      title: "广告",
+      itemType: 1
+    })
   }
 })
