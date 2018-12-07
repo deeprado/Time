@@ -14,7 +14,7 @@
 <img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222845352.png" width="300">　　<img src="https://github.com/azhon/Time/blob/master/effectImage/20171103222906416.png" width="300">
 
 #### 微信小程序版本：https://github.com/azhon/Time/tree/WeChatApp
-> 在微信小程序中搜索 <font color="red">`阿钟程序猿`</font>或者微信扫描下方二维码进入小程序
+> 在微信小程序中搜索 <font color="red">`怡笑院`</font>或者微信扫描下方二维码进入小程序
 
 <img src="https://github.com/azhon/Time/blob/master/effectImage/20171122125331856.jpeg" width="200">
 
