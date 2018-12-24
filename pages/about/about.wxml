@@ -35,12 +35,14 @@
 </view>
 
 <view class='divider-view' />
+<button open-type='share' class='share' hover-class='share-hover'>推荐给朋友</button>
+<view class='divider-view' />
 <!--友情链接  -->
 <view class='item-group'>
   <text class='title'> 友情链接</text>
   <view>
     <text class='content-title'>　尚尚的小程序：</text>
-    <text class='content' selectable='true'>我很随便的</text>
+    <text class='content' selectable='true'>吃什么都行</text>
   </view>
 </view>
 
