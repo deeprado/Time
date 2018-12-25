@@ -1,8 +1,8 @@
 <view class='content'>
   <view>
-    <image wx:for="{{array}}" mode="widthFix" wx:key="" class='left' src='{{item.url}}' wx:if="{{index%2==0}}"></image>
+    <image bindtap='seeBig' data-item='{{item}}' wx:for="{{array}}" mode="widthFix" wx:key="" class='left' src='{{item.url}}' wx:if="{{index%2==0}}"></image>
   </view>
   <view>
-    <image wx:for="{{array}}" mode="widthFix" wx:key="" class='right' src='{{item.url}}' wx:if="{{index%2==1}}"></image>
+    <image bindtap='seeBig' data-item='{{item}}' wx:for="{{array}}" mode="widthFix" wx:key="" class='right' src='{{item.url}}' wx:if="{{index%2==1}}"></image>
   </view>
 </view>

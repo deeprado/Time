@@ -1,0 +1,7 @@
+<!--pages/seeBig/seeBig.wxml-->
+<scroll-view>
+  <view class='main'>
+    <image class='image' src='{{url}}' mode='widthFix'></image>
+    <button class='save' bindtap='saveImage'>保存至手机</button>
+  </view>
+</scroll-view>

@@ -1,0 +1,33 @@
+/* pages/seeBig/seeBig.wxss */
+/* 隐藏滚动条  */
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 0;
+  color: transparent;
+}
+
+/* 设置页面的背景颜色  */
+
+page {
+  background-color: #eee;
+  height: 100%;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  height: 100%;
+}
+.image{
+  margin-top: 20rpx;
+  border-radius: 8rpx;
+  width: 95vw;
+}
+.save{
+  flex: 1;
+  width: 80vw;
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+}

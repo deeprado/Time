@@ -6,7 +6,8 @@
     "pages/about/about",
     "pages/detail/detail",
     "pages/storyDetail/storyDetail",
-    "pages/girl/girl"
+    "pages/girl/girl",
+    "pages/seeBig/seeBig"
   ],
   "tabBar": {
     "color": "#38373C",
@@ -26,8 +27,8 @@
       },
       {
         "pagePath": "pages/girl/girl",
-        "iconPath": "images/ic_story.png",
-        "selectedIconPath": "images/ic_story_ed.png",
+        "iconPath": "images/girl.png",
+        "selectedIconPath": "images/girl_ed.png",
         "text": "福利"
       },
       {

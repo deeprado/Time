@@ -4,11 +4,7 @@ App({
   //当小程序初始化完成时，会触发 onLaunch（全局只触发一次）
   onLaunch: function () {
     //每次登录获取用户的信息
-    wx.showToast({
-      title: '欢迎光临',
-      image:'./images/ic_hi.png',
-      duration: 2000
-    })
+   
   },
   //当小程序启动，或从后台进入前台显示，会触发 onShow
   onShow: function () {

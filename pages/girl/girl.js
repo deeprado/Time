@@ -69,6 +69,16 @@ Page({
   },
 
   /**
+   * 查看大图
+   */
+  seeBig: function(data) {
+    var item = data.currentTarget.dataset.item;
+    var url = item.url;
+    wx.navigateTo({
+      url: '../seeBig/seeBig?url=' + url 
+    })
+  },
+  /**
    * 请求数据
    */
   requestData: function() {
