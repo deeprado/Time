@@ -1,0 +1,33 @@
+/* pages/joke/joke.wxss */
+
+/* 隐藏滚动条  */
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 0;
+  color: transparent;
+}
+
+/* 设置页面的背景颜色  */
+
+page {
+  background-color: #eee;
+}
+
+.content{
+  display: flex;
+  margin-top: 10rpx;
+}
+.left {
+  margin-top: 5rpx;
+  border-radius: 8rpx;
+  margin-left: 10rpx;
+  width: 48vw;
+}
+.right {
+  margin-top: 5rpx;
+  border-radius: 8rpx;
+  margin-left: 5rpx;
+  margin-right: 8rpx;
+  width: 48vw;
+}

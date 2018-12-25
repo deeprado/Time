@@ -5,7 +5,8 @@
     "pages/quotations/quotations",
     "pages/about/about",
     "pages/detail/detail",
-    "pages/storyDetail/storyDetail"
+    "pages/storyDetail/storyDetail",
+    "pages/girl/girl"
   ],
   "tabBar": {
     "color": "#38373C",
@@ -18,16 +19,16 @@
         "text": "笑话"
       },
       {
-        "pagePath": "pages/story/story",
-        "iconPath": "images/ic_story.png",
-        "selectedIconPath": "images/ic_story_ed.png",
-        "text": "故事"
-      },
-      {
         "pagePath": "pages/quotations/quotations",
         "iconPath": "images/ic_duanzi.png",
         "selectedIconPath": "images/ic_duanzi_ed.png",
         "text": "鸡汤"
+      },
+      {
+        "pagePath": "pages/girl/girl",
+        "iconPath": "images/ic_story.png",
+        "selectedIconPath": "images/ic_story_ed.png",
+        "text": "福利"
       },
       {
         "pagePath": "pages/about/about",
